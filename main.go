@@ -1,7 +1,7 @@
 /*
  * Accounts Analyser
  *
- * This API is for managing bank account statements, for use with [https://github.com/Accounts-Analyser](https://github.com/Accounts-Analyser) 
+ * This API is for managing bank account statements, for use with [https://github.com/Accounts-Analyser](https://github.com/Accounts-Analyser)
  *
  * API version: 1.0.0
  * Contact: colincampbell321123@hotmail.com
@@ -13,14 +13,7 @@ import (
 	"log"
 	"net/http"
 
-	// WARNING!
-	// Change this to a fully-qualified import path
-	// once you place this file into your project.
-	// For example,
-	//
-	//    sw "github.com/myname/myrepo/go"
-	//
-	sw "./go"
+	sw "github.com/Accounts-Analyser/statement-api/go"
 )
 
 func main() {

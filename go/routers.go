@@ -1,7 +1,7 @@
 /*
  * Accounts Analyser
  *
- * This API is for managing bank account statements, for use with [https://github.com/Accounts-Analyser](https://github.com/Accounts-Analyser) 
+ * This API is for managing bank account statements, for use with [https://github.com/Accounts-Analyser](https://github.com/Accounts-Analyser)
  *
  * API version: 1.0.0
  * Contact: colincampbell321123@hotmail.com
@@ -44,7 +44,7 @@ func NewRouter() *mux.Router {
 }
 
 func Index(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Hello World!")
+	fmt.Fprintf(w, "Statement API!")
 }
 
 var routes = Routes{
